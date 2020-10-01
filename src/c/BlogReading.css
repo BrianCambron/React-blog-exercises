@@ -1,9 +1,12 @@
 .left-aside{
 display: inline-flex;
 }
-/* .blogBody{
+.blogBody{
   display: none;
-} */
+}
 .bloglist{
   list-style: none;
+}
+.clicked-blog{
+  display: inline-flex;
 }
