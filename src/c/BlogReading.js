@@ -13,9 +13,7 @@ class BlogReading extends Component {
     }
     this.handleClick = this.handleClick.bind(this)
   }
-  // handleClick(blogs){
-  // console.log(blogs);
-  //  };
+  
   handleClick(blogIndex) {
       const blogPost = this.state.blogs[blogIndex];
       this.setState({pickedBlog: blogPost});
