@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import BlogBoard from './a/BlogBoard';
+import PeopleBoard from './b/PeopleBoard'
+import BlogReading from './c/BlogReading'
 import './App.css';
-
 
 
 
@@ -14,7 +15,7 @@ constructor(props){
 }
 render(){
   return(
-    <BlogBoard />
+    <BlogReading />
   )
 }
 }

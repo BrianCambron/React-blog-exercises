@@ -1,0 +1,9 @@
+.left-aside{
+display: inline-flex;
+}
+/* .blogBody{
+  display: none;
+} */
+.bloglist{
+  list-style: none;
+}

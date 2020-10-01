@@ -19,7 +19,7 @@ class BlogForm extends Component {
   handleSubmit(event){
     event.preventDefault();
     this.props.addBlog(this.state);
-    this.setState({title:'', body:''})
+    this.setState({title:'', body:''});
   }
   render(){
     return(
